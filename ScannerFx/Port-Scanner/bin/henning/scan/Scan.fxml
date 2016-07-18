@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="139.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="henning.scan.Controller">
+   <children>
+      <Button fx:id="begin" layoutX="14.0" layoutY="92.0" mnemonicParsing="false" onAction="#start" text="Start" />
+      <Label layoutX="10.0" layoutY="40.0" text="IPv4 Address" />
+      <TextField fx:id="start" layoutX="104.0" layoutY="35.0" prefHeight="21.0" prefWidth="174.0" />
+      <Label layoutX="104.0" layoutY="4.0" text="Port Scanner" />
+      <CheckBox fx:id="well" layoutX="104.0" layoutY="70.0" mnemonicParsing="false" text="Well Known Ports" />
+      <CheckBox fx:id="reg" layoutX="104.0" layoutY="97.0" mnemonicParsing="false" text="Registered Ports" />
+   </children>
+</Pane>
